@@ -27,3 +27,4 @@
 - 前端与 supabase 做实现时，都需要完全按照数据类型进行实现，尽可能避免修改定好的数据类型，如果出现修改，需要检查所有引用该类型的文件
 update
 update
+update admin fix
