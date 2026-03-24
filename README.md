@@ -30,3 +30,4 @@ update
 update admin fix
 fix admin routing
 fix admin cms
+fix netlify routing admin
