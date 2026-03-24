@@ -28,3 +28,4 @@
 update
 update
 update admin fix
+fix admin routing
