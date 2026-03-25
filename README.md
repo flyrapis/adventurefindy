@@ -32,3 +32,4 @@ fix admin routing
 fix admin cms
 fix netlify routing admin
 force root publish final
+fix cms load final
