@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "experiencias"
+    label: "Experiencias"
+    folder: "content/experiencias"
+    create: true
+    fields:
+      - label: "Nombre"
+        name: "nombre"
+        widget: "string"
+
+      - label: "Precio"
+        name: "precio"
+        widget: "number"
+
+      - label: "Horario"
+        name: "horario"
+        widget: "string"
+
+      - label: "Descripción"
+        name: "descripcion"
+        widget: "text"
