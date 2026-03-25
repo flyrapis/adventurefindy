@@ -4,36 +4,9 @@
   <meta charset="utf-8" />
   <title>Admin</title>
 
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <!-- Cargar Decap CMS correctamente -->
+  <script src="https://unpkg.com/decap-cms@3.11.0/dist/decap-cms.js"></script>
 </head>
 <body>
-  <script>
-    window.CMS_MANUAL_INIT = true;
-
-    window.addEventListener('load', function () {
-      CMS.init({
-        backend: {
-          name: "git-gateway",
-          branch: "main"
-        },
-        media_folder: "images/uploads",
-        public_folder: "/images/uploads",
-        collections: [
-          {
-            name: "experiencias",
-            label: "Experiencias",
-            folder: "content/experiencias",
-            create: true,
-            fields: [
-              { label: "Nombre", name: "nombre", widget: "string" },
-              { label: "Precio", name: "precio", widget: "number" },
-              { label: "Horario", name: "horario", widget: "string" },
-              { label: "Descripción", name: "descripcion", widget: "text" }
-            ]
-          }
-        ]
-      });
-    });
-  </script>
 </body>
 </html>
