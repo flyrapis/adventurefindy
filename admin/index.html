@@ -3,8 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <title>Admin</title>
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </head>
 <body>
+  <script>
+    window.CMS_MANUAL_INIT = true;
+
+    window.addEventListener('load', function() {
+      CMS.init({
+        config: '/config.yml'
+      });
+    });
+  </script>
 </body>
 </html>
